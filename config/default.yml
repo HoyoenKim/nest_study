@@ -1,0 +1,12 @@
+# codabase: port 등 노출되도 됨. enviroment variables: API Key 등 노출되면 안됨.
+# default.yml: 기본 설정, development.yml: 개발 시 환경 설정, production.yml: 운영 시 환경 설정.
+server:
+  port: 3000
+
+db:
+  type: 'postgres'
+  port: 5432
+  databse: 'board-app'
+
+jwt:
+  expriesIn: 360000
